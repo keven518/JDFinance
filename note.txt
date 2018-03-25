@@ -1,0 +1,8 @@
+git checkout -b setup 创建并切换到一个新的分支
+
+1.scss的应用
+2.css像素、物理像素、逻辑像素、设备像素比、ppl、 viewport
+github.com/jawil/blog/issues/21
+3.Prerender预渲染优化SEO
+codingfishman.github.io/2016/05/06/Prerender预渲染优化SEO
+

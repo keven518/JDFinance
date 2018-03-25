@@ -1,0 +1,39 @@
+<!--  -->
+<template>
+  <div :class="[btnClass, cname]">
+    <slot />           
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    cname: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      btnClass: 'btn'
+    };
+  },
+
+  components: {},
+
+  computed: {},
+
+  mounted(){
+    console.log('kv')
+  },
+
+  methods: {}
+}
+
+</script>
+<style lang='scss' scoped>
+@import '../../css/element.scss';
+.btn{
+  @include btn;
+}
+</style>

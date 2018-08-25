@@ -6,7 +6,8 @@
       <Money />
       <Adb />
       <Finance />
-      <Footer />
+      <Adc />
+      <Footer cname='mfooter' />
       <Navbar />
     </div>
 </template>
@@ -20,6 +21,7 @@ import Ada from './ada.vue'
 import Money from './money.vue'
 import Adb from './adb.vue'
 import Finance from './finance.vue'
+import Adc from './adc.vue'
 export default {
   components: {
     Heador,
@@ -28,8 +30,21 @@ export default {
     Money,
     Adb,
     Finance,
+    Adc,
     Footer,
     Navbar
   }
 }
 </script>
+
+<style lang='scss'>
+  .mfooter{
+    margin-top: 0!important;
+    ul{
+      li:first-child{
+        display: none;
+      }
+    }
+  }
+</style>
+

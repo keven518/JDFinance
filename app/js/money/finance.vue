@@ -77,6 +77,9 @@ export default {
           border-bottom: 1px solid #ddd;
           margin-left: 150px;
         }
+        &:last-child:after{
+          border-bottom: none;
+        }
         >img{
           width: 88px;
           height: 88px;

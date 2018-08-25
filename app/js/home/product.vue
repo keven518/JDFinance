@@ -17,16 +17,16 @@ export default {
   data () {
     return {
       items: [{
-        href: 'home',
+        // href: 'home',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t21691/233/2361780032/59932/8cb4ce42/5b5066e3Nb460c234.jpg?width=335&height=421'
       },{
-        href: 'home',
+        // href: 'home',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t24547/3/1113130809/37409/3e7d5038/5b5066f2N360c723a.jpg?width=335&height=421'
       },{
-        href: 'home',
+        // href: 'home',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t22696/182/1419336545/44627/3e46409d/5b5fcdb3N4c31020e.jpg?width=335&height=421'
       },{
-        href: 'home',
+        // href: 'home',
         src: '//img12.360buyimg.com/jrpmobile/jfs/t21691/233/2361780032/59932/8cb4ce42/5b5066e3Nb460c234.jpg?width=335&height=421'
       }],
       options: {

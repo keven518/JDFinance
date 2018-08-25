@@ -5,6 +5,7 @@
       <Ada />
       <Money />
       <Adb />
+      <Finance />
       <Footer />
       <Navbar />
     </div>
@@ -18,6 +19,7 @@ import Slide from './mslider.vue'
 import Ada from './ada.vue'
 import Money from './money.vue'
 import Adb from './adb.vue'
+import Finance from './finance.vue'
 export default {
   components: {
     Heador,
@@ -25,6 +27,7 @@ export default {
     Ada,
     Money,
     Adb,
+    Finance,
     Footer,
     Navbar
   }

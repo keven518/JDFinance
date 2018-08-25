@@ -20,7 +20,7 @@
         <p>白条提额</p>
       </li>
       <li :class="$style.item">
-        <img src="//img12.360buyimg.com/jrpmobile/jfs/t5590/252/875247023/17343/946aa72c/59224650N0f7ffc92.png?width=132&height=132" alt="" />
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t12430/361/1344312222/9697/c59d311b/5a1e90dcN571accd9.png?width=136&height=136" alt="" />
         <p>分期用</p>
       </li>
     </ul>

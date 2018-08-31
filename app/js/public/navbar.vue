@@ -11,25 +11,25 @@
       <li>
         <router-link :to="{ name: 'money' }">
           <img src="https://img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60" alt="">
-          <p>赚钱</p>
+          <p>理财</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'money' }">
+        <router-link :to="{ name: 'ious' }">
           <img src="https://img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60" alt="">
-          <p>借钱</p>
+          <p>白条</p>
+        </router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'raise' }">
+          <img src="https://img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60" alt="">
+          <p>众筹</p>
         </router-link>
       </li>
       <li>
         <router-link :to="{ name: 'home' }">
           <img src="https://img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60" alt="">
-          <p>省钱</p>
-        </router-link>
-      </li>
-      <li>
-        <router-link :to="{ name: 'home' }">
-          <img src="https://img12.360buyimg.com/jrpmobile/jfs/t17650/174/1729132233/4020/2b09fc25/5ad6aac4N620fbed1.png?width=60&height=60" alt="">
-          <p>金融会员</p>
+          <p>我的</p>
         </router-link>
       </li>
     </ul>

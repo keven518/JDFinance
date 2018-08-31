@@ -1,7 +1,7 @@
 <template lang="html">
     <div>
       <Heador />
-      <Slide />
+      <Slider />
       <Novice />
       <Borrow />
       <Money />
@@ -16,7 +16,7 @@
 import Heador from '../public/header.vue'
 import Footer from '../public/footer.vue'
 import Navbar from '../public/navbar.vue'
-import Slide from './hslider.vue'
+import Slider from './hslider.vue'
 import Novice from './novice.vue'
 import Borrow from './borrow.vue'
 import Money from './money.vue'
@@ -25,7 +25,7 @@ import Life from './life.vue'
 export default {
   components: {
     Heador,
-    Slide,
+    Slider,
     Novice,
     Borrow,
     Money,
